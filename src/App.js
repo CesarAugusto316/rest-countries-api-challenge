@@ -15,7 +15,10 @@ import Wrapper from "./components/ui/Wrapper";
 export default function App() {
 	return (
 		<ThemeProvider>
-			<div className="font-sans bg-zinc-50 dark:bg-base-200 dark:text-slate-200 min-h-screen text-slate-700 space-y-16">
+			<div
+				className="font-sans bg-zinc-50 dark:bg-base-200 \
+			 dark:text-slate-200 min-h-screen text-slate-700 space-y-16"
+			>
 				<header>
 					<Navbar />
 				</header>
