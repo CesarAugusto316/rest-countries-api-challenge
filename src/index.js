@@ -6,16 +6,20 @@ import "./index.css";
 import App from "./App";
 
 // React Router
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
+
+// For GithubPages Configuration we need this
+import { HashRouter } from "react-router-dom";
+
 // Context Provider
 import CountriesContextProvider from "./components/CountriesContext";
 
 ReactDOM.render(
 	<React.StrictMode>
 		<CountriesContextProvider>
-			<BrowserRouter>
+			<HashRouter>
 				<App />
-			</BrowserRouter>
+			</HashRouter>
 		</CountriesContextProvider>
 	</React.StrictMode>,
 	document.getElementById("root")
