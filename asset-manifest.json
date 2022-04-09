@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rest-countries-api-challenge/static/css/main.6f108283.css",
-    "main.js": "/rest-countries-api-challenge/static/js/main.ebb29c48.js",
-    "static/js/787.7ab103b3.chunk.js": "/rest-countries-api-challenge/static/js/787.7ab103b3.chunk.js",
-    "index.html": "/rest-countries-api-challenge/index.html",
-    "main.6f108283.css.map": "/rest-countries-api-challenge/static/css/main.6f108283.css.map",
-    "main.ebb29c48.js.map": "/rest-countries-api-challenge/static/js/main.ebb29c48.js.map",
-    "787.7ab103b3.chunk.js.map": "/rest-countries-api-challenge/static/js/787.7ab103b3.chunk.js.map"
+    "main.css": "/static/css/main.6f108283.css",
+    "main.js": "/static/js/main.cdfbb805.js",
+    "static/js/787.7ab103b3.chunk.js": "/static/js/787.7ab103b3.chunk.js",
+    "index.html": "/index.html",
+    "main.6f108283.css.map": "/static/css/main.6f108283.css.map",
+    "main.cdfbb805.js.map": "/static/js/main.cdfbb805.js.map",
+    "787.7ab103b3.chunk.js.map": "/static/js/787.7ab103b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f108283.css",
-    "static/js/main.ebb29c48.js"
+    "static/js/main.cdfbb805.js"
   ]
 }
