@@ -16,7 +16,7 @@ export default React.memo(function Navbar() {
 	return (
 		<nav className="shadow-box py-6 bg-white dark:bg-slate-800">
 			<Wrapper>
-				<h2 className="text-2xl font-extrabold">Where in the world?</h2>
+				<h2 className="text-2xl font-extrabold">Where in the world you are?</h2>
 
 				<div
 					className="flex items-center font-semibold cursor-pointer"

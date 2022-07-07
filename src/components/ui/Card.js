@@ -2,11 +2,11 @@ import React from "react";
 import Spinner from "./Spinner";
 
 export default function Card({ country }) {
+
 	const [imageLoad, setImageLoad] = React.useReducer(() => true, false);
 
 	return (
-		<div className="card w-64 rounded-md bg-white dark:bg-base-100 shadow-box">
-			{/* image-Loader */}
+		<div className="card w-62 rounded-md bg-white dark:bg-base-100 shadow-box">
 			<figure>
 				<div className={`h-36 pt-6 ${imageLoad === true && "hidden"}`}>
 					<Spinner size={"text-lg"} />
@@ -33,7 +33,7 @@ export default function Card({ country }) {
 						<span>{country.region}</span>
 					</div>
 					<div className="block w-full ">
-						<span className="font-semibold">Capital: </span>{" "}
+						<span className="font-bold">Capital: </span>{" "}
 						<span>{country.capital}</span>
 					</div>
 				</div>
